@@ -31,3 +31,6 @@ warehouse-management-system/
 │   └── configmap.yaml          # K8s config map (if needed)
 │
 └── README.md                   # Project documentation
+
+
+![Screenshot 2024-08-28 at 05-48-42 Application Data Processing](https://github.com/user-attachments/assets/8bcb5572-e4a4-4eca-beed-ff2ce24eb96c)
