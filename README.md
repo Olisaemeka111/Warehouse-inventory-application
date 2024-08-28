@@ -1,6 +1,10 @@
 # Warehouse-inventory-application
 Building a warehouse application
 
+Pictorial schematics
+
+![image](https://github.com/user-attachments/assets/1d6eabd8-c67d-4d6a-b30d-6b0024fc5fb7)
+
 
 warehouse-management-system/
 │
@@ -34,3 +38,5 @@ warehouse-management-system/
 
 
 ![Screenshot 2024-08-28 at 05-48-42 Application Data Processing](https://github.com/user-attachments/assets/8bcb5572-e4a4-4eca-beed-ff2ce24eb96c)
+
+
