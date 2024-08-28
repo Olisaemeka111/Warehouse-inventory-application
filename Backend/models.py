@@ -1,0 +1,28 @@
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
+
+class StockItem(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    batch_code = db.Column(db.String(100))
+    stock_code = db.Column(db.String(100))
+    part_no = db.Column(db.String(100))
+    supplier = db.Column(db.String(100))
+    po_number = db.Column(db.String(100))
+    manufacturer = db.Column(db.String(100))
+    model_name = db.Column(db.String(100))
+    cost_price = db.Column(db.Float)
+    sales_price = db.Column(db.Float)
+    qty_available = db.Column(db.Integer)
+    allocated = db.Column(db.Integer)
+    faulty = db.Column(db.Integer)
+    reorder_level = db.Column(db.Integer)
+    barcode = db.Column(db.String(100))
+    serial_no = db.Column(db.String(100))
+    location = db.Column(db.String(100))
+    grade = db.Column(db.String(100))
+    condition = db.Column(db.String(100))
+    cosmetic_damage = db.Column(db.Boolean)
+    allocated_status = db.Column(db.Boolean)
+    unit_price = db.Column(db.Float)
+    sales_price = db.Column(db.Float)
